@@ -1,0 +1,11 @@
+install.packages("ggplot2")	#  ggplot2  패키지 설치
+library(ggplot2)	          #  ggplot2  패키지 로드
+
+# <함수 사용하기>
+#  여러 문자로 구성된 변수 생성
+x <- c("a", "a", "b", "c")
+x
+## [1] "a" "a" "b" "c"
+
+#  빈도 그래프 출력
+qplot(x)
